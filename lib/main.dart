@@ -43,7 +43,7 @@ class _DrawPointsScreenState extends State<DrawPointsScreen> {
 
   void _addPoint(TapDownDetails details) {
     setState(() {
-      points.add(Point(details.localPosition.dx, details.localPosition.dy, curve.update));
+      // points.add(Point(details.localPosition.dx, details.localPosition.dy, curve.update));
       curve.addPoint(details.localPosition.dx, details.localPosition.dy);
     });
   }
@@ -123,6 +123,21 @@ class _DrawPointsScreenState extends State<DrawPointsScreen> {
                           closedLoop = !closedLoop;
                         }),
                       )
+                    ],
+                  ),
+                ),
+                Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Row(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      TextButton(
+                          onPressed: () {
+                            setState(() {
+                              curve.points.clear();
+                            });
+                          },
+                          child: const Text('Clear')),
                     ],
                   ),
                 ),
