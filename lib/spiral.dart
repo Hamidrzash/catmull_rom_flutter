@@ -47,7 +47,7 @@ class _DrawPointsScreenState extends State<DrawPointsScreen> {
   }
 
   void _startAddingCirclePoints() {
-    _timer = Timer.periodic(const Duration(milliseconds: 10), (timer) {
+    _timer = Timer.periodic(const Duration(milliseconds: 100), (timer) {
       setState(() {
         radius += 0.5;
         // Calculate the x and y position for the current angle
@@ -60,7 +60,7 @@ class _DrawPointsScreenState extends State<DrawPointsScreen> {
         points.add(Offset(x, y));
 
         // Increment the angle
-        angle += 23;
+        angle += 11;
       });
     });
   }
