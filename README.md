@@ -9,4 +9,4 @@ A Flutter implementation of smooth curves using Catmull-Rom splines, inspired by
 - **Smooth Path Creation:** Generates continuous curves passing through all points.
 
 ## 🎥 Preview
-![](https://github.com/Hamidrzash/image_particle_effect/blob/main/preview.png)
+![](https://github.com/Hamidrzash/catmull_rom_flutter/blob/main/preview.png)
