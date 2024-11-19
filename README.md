@@ -1,16 +1,12 @@
-# catmull_rom_flutter
+# Catmull Rom Flutter
 
-Centripetal Catmull–Rom spline with Flutter
+A Flutter implementation of smooth curves using Catmull-Rom splines, inspired by [this blog post](https://qroph.github.io/2018/07/30/smooth-paths-using-catmull-rom-splines.html). This project demonstrates how to draw continuous, smooth paths through a set of points in Flutter.
 
-## Getting Started
+## 🚀 Live Demo
+[Try the live demo here!](https://hamidrzash.github.io/catmull_rom_flutter)
 
-This project is a starting point for a Flutter application.
+## Features
+- **Smooth Path Creation:** Generates continuous curves passing through all points.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🎥 Preview
+![](https://github.com/Hamidrzash/image_particle_effect/blob/main/preview.png)
